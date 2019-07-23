@@ -1,7 +1,7 @@
 
 import time
 from sklearn.grid_search import GridSearchCV
-from sklearn.svm import SVC, NuSVC
+from sklearn.svm import SVC, NuSVC, SVR
 from data_manager import *
 
 

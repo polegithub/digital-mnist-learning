@@ -1,8 +1,10 @@
 import pandas as pd
 import numpy as np
 import time
-from sklearn.grid_search import GridSearchCV
+# from sklearn.grid_search import GridSearchCV
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.model_selection import GridSearchCV
 
 from data_manager import *
 
